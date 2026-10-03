@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!-- Dante -->
+
+  <BattleCardAbility ID="Hat_Dante1">
+	<Desc>For every 7 damage dealt with this page, inflict 1 Fragile to target next Scene (Up to 7)</Desc>
+	<Desc>[On Use] Types of Offensive dice on this page change to the types the target is weakest to</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Dante2">
+	<Desc>[On Hit] Deal +(number of hits with this page x 7) additional damage and inflict 3 Disarm next Scene</Desc>
+  </BattleCardAbility>
+
+<!-- Sayo -->
+
+  <BattleCardAbility ID="Hat_Sayo1">
+	<Desc>[On Use] All dice on this page gain +1 Power for each page in hand</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Sayo2">
+	<Desc>[On Hit] Draw 2 pages</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Sayo3">
+	<Desc>[On Hit] Inflict 4 Bleed for each page in hand next Scene</Desc>
+  </BattleCardAbility>
+
+<!-- WARP -->
+
+  <BattleCardAbility ID="Hat_Warp1">
+    <Desc>[On Use] Spend up to 10 Charge; has a (Charge x 10)% chance to succeed
+[Success] All dice on this page gain +8 Power;
+[Failure] Deal 20 damage to self</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp2">
+	<Desc>[On Hit] If 10 Charge was spent at once, deal 15 bonus damage to target</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp3">
+    <Desc>[On Use] Spend up to 5 Charge to boost Power of all dice on this page by the amount spent</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp4">
+	<Desc>If 5 Charge were spent, roll Max</Desc>
+  </BattleCardAbility>
+  
+<!-- Shi -->
+
+  <BattleCardAbility ID="Hat_Shi1">
+	<Desc>[On Clash Win] Destroy all of opponent's dice</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi2">
+	<Desc>[Combat Start] For the Scene, the first die on all user's pages with one non-Counter die gain '[On Clash Win] Destroy opponent's next die'</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi3">
+	<Desc>[On Use] If Speed is higher than the target's, all dice on this page gain +2 Power</Desc>
+	<Desc>[On Hit] Gain 1 Haste and Damage up next Scene</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi4">
+	<Desc>If the natural roll is Max, and is 4 or higher, add +45 power</Desc>
+  </BattleCardAbility>  
+
+  <BattleCardAbility ID="Hat_Shi5">
+	<Desc>If target has lost (22/44/88)% of HP, deal (44/144/444)% more daage</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi6">
+	<Desc>[On Hit] Deal bonus damage equal to the difference in Speed values (Up to 8)</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi7">
+	<Desc>[On Hit] Deal bonus Stagger damage equal to the difference in Speed values (Up to 8)</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi8">
+	<Desc>[On Play] Gain an additional Speed die with the same Speed value as the fastest Speed die of user</Desc>
+	<Desc>At the start of the next Scene, seal 1 Speed die of self
+After this effect ends, this page returns to personal E.G.O hand</Desc>
+  </BattleCardAbility>
+  
+<!-- Index -->
+
+  <BattleCardAbility ID="Hat_Index1">
+	<Desc>If user is in the 'Blade Unlocked' state, reduce Power of all opponent's dice clashing against this by 3</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index2">
+	<Desc>If user is in the 'Blade Unlocked' state, the first die on the page clashing with this page is unaffected by Power gain or loss</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index3">
+	<Desc>If user is in the 'Blade Unlocked' state, boost the max value of all dice on this page by +3</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index4">
+    <Desc>Only usable in the 'Blade Unlocked' state</Desc>
+	<Desc>[On Use] Spend 6 'Restriction Lift'</Desc>
+	<Desc>[Start of Clash] Reduce Power of all opponent's dice by 12</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index5">
+	<Desc>[On Hit] Deal bonus damage and Stagger damage equal to 7x roll</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index6">
+    <Desc>Only usable in the 'Blade Unlocked' state</Desc>
+	<Desc>[On Use] Spend 6 'Restriction Lift'</Desc>
+	<Desc>[Start of Clash] Destroy all Defensive dice on the opponent's page</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index7">
+	<Desc>[On Hit] Inflict 10 Bleed and make target not lose Bleed stacks after rolling Offensive dice this Scene</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index8">
+	<Desc>[On Hit] Inflict 1 Disarm, Bind, and Paralysis next Scene</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index9">
+    <Desc>Only usable in the 'Blade Unlocked' state</Desc>
+	<Desc>[On Use] Spend 6 'Restriction Lift'</Desc>
+	<Desc>If target is defeated or Staggered, use this page again</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index10">
+	<Desc>[On Kill] Gain 3 Strength this Scene</Desc>
+  </BattleCardAbility>
+
+<!-- Liu -->
+
+  <BattleCardAbility ID="Hat_Liu1">
+    <Desc>If another ally uses 'Raging Storm: Love' this Scene, add a Slash die (Roll: 8-20) to the dice queue of this page and that ally's page</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Liu2">
+    <Desc>[Start of Clash] Reduce Power of all Defensive dice on target's page by 5</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Liu3">
+    <Desc>[On Hit] Inflict 6 Disarm next Scene</Desc>
+  </BattleCardAbility>
+  
+</BattleCardAbilityDescRoot>

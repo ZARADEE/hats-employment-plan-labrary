@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleEffectTextRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <effectTextList>
+
+	<BattleEffectText ID="onlypage_Hat_Dante_Keyword">
+      <Name>但丁专用战斗书页</Name>
+      <Desc>仅限装备但丁之页的角色使用</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="onlypage_Hat_Sayo_Keyword">
+      <Name>纱世专用战斗书页</Name>
+      <Desc>仅限装备纱世之页的角色使用</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="onlypage_Hat_Wcorp_Keyword">
+      <Name>W公司专用战斗书页</Name>
+      <Desc>仅限装备萝丝之页，莱斯蒂之页和森之页的角色使用</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="onlypage_Hat_Yujin_Keyword">
+      <Name>柳真专用战斗书页</Name>
+      <Desc>仅限装备柳真之页的角色使用</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="onlypage_Hat_Valentin_Keyword">
+      <Name>瓦伦丁专用战斗书页</Name>
+      <Desc>仅限装备瓦伦丁之页的角色使用</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="onlypage_Hat_Tenma_Keyword">
+      <Name>天满专用战斗书页</Name>
+      <Desc>仅限装备天满之页的角色使用</Desc>
+    </BattleEffectText>
+	
+    <BattleEffectText ID="Hat_Shi">
+      <Name>现死之眼</Name>
+      <Desc>当前已使用{0}张书页</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="Hat_Index">
+      <Name>指令加护</Name>
+      <Desc>{0}</Desc>
+    </BattleEffectText>
+	
+    <BattleEffectText ID="Hat_Index1">
+      <Name>禁限解除</Name>
+      <Desc>当前已使用{0}张不同的书页</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="Hat_Index2">
+      <Name>禁限解除</Name>
+      <Desc>禁限解除完毕</Desc>
+    </BattleEffectText>
+
+	
+	</effectTextList>
+</BattleEffectTextRoot>

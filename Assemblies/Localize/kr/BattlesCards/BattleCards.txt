@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BattleCardDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cardDescList>
+
+    <BattleCardDesc ID="1">
+      <LocalizedName>약점 공략</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="2">
+      <LocalizedName>운개견일</LocalizedName>
+    </BattleCardDesc>
+ 
+	<BattleCardDesc ID="3">
+      <LocalizedName>공간 절단</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="4">
+      <LocalizedName>공간 절단</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="5">
+      <LocalizedName>사의 경계</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="6">
+      <LocalizedName>극검</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="7">
+      <LocalizedName>섬격</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="8">
+      <LocalizedName>형벌</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="9">
+      <LocalizedName>참수</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="10">
+      <LocalizedName>척결</LocalizedName>
+    </BattleCardDesc>
+
+	<BattleCardDesc ID="11">
+      <LocalizedName>휘몰아치기-일격</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="12">
+      <LocalizedName>철산고</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="100">
+      <LocalizedName>대적</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="101">
+      <LocalizedName>격렬</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="102">
+      <LocalizedName>빠른 궤적</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="103">
+      <LocalizedName>묵직한 궤적</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="104">
+      <LocalizedName>다중 궤적</LocalizedName>
+    </BattleCardDesc>
+ 
+  </cardDescList>
+</BattleCardDescRoot>

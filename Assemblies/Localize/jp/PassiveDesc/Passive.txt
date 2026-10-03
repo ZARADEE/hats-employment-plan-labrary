@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <PassiveDesc ID="1">
+    <Name>Grasping Vulnerabilities</Name>
+    <Desc>If target has Fragile, all dice gain +1 Power.
+Otherwise, on a successful hit, inflict 3 Fragile to target this Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="2">
+    <Name>Information Assessment</Name>
+    <Desc>At the end of the Scene, a random enemy's "Endured" resistance to a random damage type changes to "Normal" for the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="3">
+    <Name>Seeing Through Weaknesses</Name>
+    <Desc>On a successful hit, treat stacks of Fragile on target as doubled for its additional damage.</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="4">
+    <Name>Ink Over</Name>
+    <Desc>Slash Dice Power +1.
+When page is drawn, if there are 6 or more pages in hand, the drawn page gains "Dark Cloud". (Costs 1 less and all dice on the page gain +1 Power)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="5">
+    <Name>Dark Cloud</Name>
+    <Desc>Draw 2 more pages at the start of the Act.
+Draw 1 more page every 2 Scenes.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="6">
+    <Name>Sharpened Blade</Name>
+    <Desc>Upon a successful Slash attack, inflict 1 Bleed next Scene.
+On a successful hit, if target has Bleed, deal (Bleed on target / 4, up to +10) additional damage to target.</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="7"> 
+    <Name>Quantum Leap</Name>
+    <Desc>All dice on Combat Pages with an effect involving 'Charge' gain +1 Power and, on a successful hit, deal (10 + Charge on self) bonus damage at 13% chance.
+When spending Charge through Combat Page: gain Charge equal to the amount spent. (Once per Scene)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="8"> 
+    <Name>Dimensional Sections</Name>
+    <Desc>On a successful hit, deal 10 bonus damage at a (10 + Charge on self)% chance.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="9"> 
+    <Name>Reaction Force</Name>
+    <Desc>If this character has gained and spent Charge through Combat Pages in the previous Scene, gain 1 Strength and Haste at the start of the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10"> 
+    <Name>Refraction</Name>
+    <Desc>All dice on Combat Pages with an effect involving 'Charge' gain +1 Power and, on a successful hit, deal (10 + Charge on self) bonus Stagger damage at 7% chance.
+When gaining Charge through Combat Page: gain Charge equal to the amount of gained. (Once per Scene)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="11"> 
+    <Name>Leap</Name>
+    <Desc>If Speed is 4 or higher, all dice gain +1 Power and, on a successful hit, gain 1 Charge.
+When gaining/spending Charge through Combat Page: gain Charge equal to half of the amount gained/spent. (Both activate once per Scene)</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="12"> 
+    <Name>Eye of Death</Name>
+    <Desc>All dice gain +1 Power. Boost the minimum roll value of all dice on every fourth page used by +4.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="13"> 
+    <Name>Overbreathing</Name>
+    <Desc>Restore 2 Light upon using a page whose original Cost is 4 or higher.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="14"> 
+    <Name>Deflect Assault</Name>
+    <Desc>Gain a Counter die (Block, 4-8) at combat start.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="15"> 
+    <Name>Not Healed Injuries</Name>
+    <Desc>Starts the battle with 75% less HP.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="16"> 
+    <Name>Deadly Sword</Name>
+    <Desc>If target's HP is lower than 75%, all dice gain +1 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="17"> 
+    <Name>Sword of Ultimate Will</Name>
+    <Desc>When using a Combat Page with one non-Counter die, the die gains +2 Power, and it yields twice as many Emotion Points in a clash.
+If all Melee Combat Pages in deck meet this condition, Counter dice gain +2 Power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="18"> 
+    <Name>Stealth in Shadows</Name>
+    <Desc>Reduce incoming damage from a one-sided attack on each Speed die by 80% for the first time in a Scene. (Can activate against Mass Attacks)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="19"> 
+    <Name>Flashing Strike</Name>
+    <Desc>At the start of each Scene, gain 1 Haste. Boost the maximum value of all dice and damage by +1, boost by 1 more for every 2 Haste on self. (Up to +4)
+Can use special page 'Swift Burst'.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="20"> 
+    <Name>Steady Breath</Name>
+    <Desc>At the start of the Scene, if Light is not full, restore 1 additional Light.</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="21"> 
+    <Name>Locked Potential</Name>
+    <Desc>After using six unique Combat Pages, enter a 'Blade Unlocked' state, which boosts the Power of all dice by 1. (The effect is retained between Acts)
+At the start of the Act, add corresponding Proxy Combat Pages to the personal E.G.O list depending on the other passives of current Key page.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="22"> 
+    <Name>Raging Torrent</Name>
+    <Desc>Draw a page every time the character uses 4 unique Combat Pages.
+If the character is in the 'Blade Unlocked' state, set the Cost of the drawn page to 0 until it's used.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="23"> 
+    <Name>Grace of the Prescript</Name>
+    <Desc>At the start of the Act and every 3 Scenes afterwards, gain Prescripts for 3 Scenes (boost the Power of a random type of Offensive dice by +2, types do not repeat). Prescript can be fulfilled by rolling the die of the corresponding type in a Scene.
+Fulfilled Prescripts stay permanently with half of the bonus.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="24"> 
+    <Name>Breaking Pressure</Name>
+    <Desc>Gain 1 Strength next Scene every time the character uses 4 unique Combat Pages.
+If the character is in the 'Blade Unlocked' state, gain 2 Strength next Scene instead.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="25"> 
+    <Name>Easygoing Breather</Name>
+    <Desc>Restore 1 Light every time the character uses 4 unique Combat Pages.
+If the character is in the 'Blade Unlocked' state, additionally, reduce the Cost of all pages in hand by 1 until they're used.</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="26"> 
+    <Name>Fervor</Name>
+    <Desc>Recover 1 HP/Stagger Resist upon gaining Positive/Negative Emotion Point.
+All dice gain +1 Power at Emotion Level 3 or above.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="27"> 
+    <Name>A Fighter that Never Retreats</Name>
+    <Desc>Whenever the Emotion Level rises, all allies gain 1 Strength.
+Each time the character gains 3 Positive/Negative Emotion Points, gain 1 (Enduance and Protection)/(Strength and Damage Up) next Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="28"> 
+    <Name>Moonlight Stone</Name>
+    <Desc>If this character would take 3 or less Stagger damage, ignore it.
+When Staggered, recover from Stagger, fully recover Stagger Resist, and destroy this passive.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="29"> 
+    <Name>Firm as a Great Mountain</Name>
+    <Desc>While not Staggered, double the effects of Protection and Stagger Protection.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="30"> 
+    <Name>Remain Vigilant in Peace</Name>
+    <Desc>Strength and Endurance affect both Offensive and Defensive dice of this character.</Desc>
+  </PassiveDesc>
+
+<!--  <PassiveDesc ID=""> 
+    <Name></Name>
+    <Desc></Desc>
+  </PassiveDesc>-->
+</PassiveDescRoot>

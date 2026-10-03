@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!-- 但丁 -->
+
+  <BattleCardAbility ID="Hat_Dante1">
+	<Desc>本书页每造成7点伤害便在下一幕中目标施加1层[易损](至多7层)</Desc>
+	<Desc>[使用时]本书页的进攻型骰子属性将转变为目标弱点攻击抗性的属性</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Dante2">
+	<Desc>本骰子伤害+[7x本书页命中次数] [命中时]下一幕中目标施加3层[破绽]</Desc>
+  </BattleCardAbility>
+
+<!-- 纱世 -->
+
+  <BattleCardAbility ID="Hat_Sayo1">
+	<Desc>[使用时]手中的每张书页使本书页所有骰子威力+1</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Sayo2">
+	<Desc>[命中时]抽取2张书页</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Sayo3">
+	<Desc>[命中时]手中每有1张书页便在下一幕中对目标施加4层[流血]</Desc>
+  </BattleCardAbility>
+  
+<!-- W -->
+
+  <BattleCardAbility ID="Hat_Warp1">
+    <Desc>[使用时]消耗至多10层[充能]并有([充能]x10)%的概率成功</Desc>
+    <Desc>[成功]使本书页的所有骰子威力+8</Desc> 
+    <Desc>[失败]对自身造成20点伤害</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp2">
+	<Desc>[命中时]若一次性消耗10层[充能]则追加15点伤害</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp3">
+    <Desc>[使用时]消耗至多5层[充能]等量提升本书页所有骰子威力</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp4">
+	<Desc>若一次性消耗5层[充能]则必定掷出最大值</Desc>
+  </BattleCardAbility>
+  
+<!-- 4协会 -->
+
+  <BattleCardAbility ID="Hat_Shi1">
+	<Desc>[拼点胜利]摧毁目标当前书页的所有骰子</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi2">
+	<Desc>[战斗开始]这一幕中所有[初始骰子数为1的书页]中的首颗骰子获得“[拼点胜利]摧毁目标当前书页的下一颗骰子”</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi3">
+	<Desc>[使用时]若自身速度大于目标则使本书页的所有骰子威力+2</Desc>
+	<Desc>[命中时]下一幕中使自身获得1层[迅捷]与[伤害强化]</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi4">
+	<Desc>若[骰子基础值]不低于4点且为最大值则威力+45</Desc>
+  </BattleCardAbility>  
+
+  <BattleCardAbility ID="Hat_Shi5">
+	<Desc>若目标已损失(22/44/88)%[体力]则使本骰子伤害提高(44/144/444)%</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi6">
+	<Desc>[命中时]追加[双方速度之差]点伤害(至多8)</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi7">
+	<Desc>[命中时]追加[双方速度之差]点混乱伤害(至多8)</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi8">
+	<Desc>[装备时]立刻获得1颗速度与自身最快[速度骰子]相同的额外[速度骰子]</Desc>
+	<Desc>下一幕[封印]自身1颗[速度骰子]，此效果结束后再次获得本书页</Desc>
+  </BattleCardAbility>
+
+<!-- 食指 Index -->
+
+  <BattleCardAbility ID="Hat_Index1">
+	<Desc>若处于[剑刃解放]状态则使目标书页的所有骰子威力-3</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index2">
+	<Desc>若处于[剑刃解放]状态则使目标书页的首颗骰子不受威力增减效果影响</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index3">
+	<Desc>若处于[剑刃解放]状态则使本书页的所有骰子最大值+3</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index4">
+    <Desc>本书页仅限[剑刃解放]状态下消耗6层[禁限解除]使用</Desc>
+	<Desc>[拼点开始]使目标书页的所有骰子威力-12</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index5">
+	<Desc>[命中时]追加[骰子最终值x7]点伤害与混乱伤害</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index6">
+    <Desc>本书页仅限[剑刃解放]状态下消耗6层[禁限解除]使用</Desc>
+	<Desc>[拼点开始]摧毁目标书页中的所有[防御型]骰子</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index7">
+	<Desc>[命中时]这一幕中对目标施加10层[流血]并使其层数不会[减少]</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index8">
+	<Desc>[命中时]下一幕中对目标施加1层[破绽][束缚][麻痹]</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index9">
+    <Desc>本书页仅限[剑刃解放]状态下消耗6层[禁限解除]使用</Desc>
+	<Desc>若击杀任意目标或使其陷入混乱则再次使用本书页</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index10">
+	<Desc>[击杀目标时]这一幕中使自身获得3层[强壮]</Desc>
+  </BattleCardAbility>
+
+<!-- 6协 -->
+
+  <BattleCardAbility ID="Hat_Liu1">
+	<Desc>若另一友方角色同时使用[燎原挚焰]，则为双方添加1颗(8~20)的斩击骰子</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Liu2">
+	<Desc>[拼点开始]使目标书页的所有[防御型]骰子威力-5</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Liu3">
+	<Desc>[命中时]下一幕中对目标施加6层[破绽]</Desc>
+  </BattleCardAbility>
+  
+</BattleCardAbilityDescRoot>

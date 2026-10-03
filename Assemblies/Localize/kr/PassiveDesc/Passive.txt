@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <PassiveDesc ID="1">
+    <Name>약점 파악</Name>
+    <Desc>대상에게 취약이 있다면 모든 주사위 위력 +1
+취약이 없다면 공격 적중시 이번 막에 취약 3 부여</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="2">
+    <Name>정보 파악</Name>
+    <Desc>막 종료시 무작위 적의 무작위 '견딤' 내성이 한 막 동안 '보통'이 된다.</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="3">
+    <Name>약점 간파</Name>
+    <Desc>공격 적중시 대상에게 있는 취약 스택을 두배로 간주하고 피해를 입힌다.</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="4">
+    <Name>먹칠</Name>
+    <Desc>참격 위력 +1
+책장을 뽑았을 때 손에 있는 책장이 6장 이상이라면 뽑힌 책장은 '흑운' 효과를 얻는다.(흑운: 비용 -1. 모든 주사위 위력 +1)</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="5">
+    <Name>검은 구름</Name>
+    <Desc>무대 시작 시 책장을 2장 더 뽑는다.
+2막마다 책장을 1장 더 뽑는다.</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="6">
+    <Name>벼린 칼날</Name>
+    <Desc>참격으로 공격 적중시 다음 막에 출혈 1 부여
+공격 적중시 대상에게 출혈이 있다면 (출혈 수치/4, 최대 10)만큼 피해</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="7"> 
+    <Name>양자도약</Name>
+    <Desc>'충전' 능력을 가진 전투 책장 사용시 그 책장의 모든 주사위의 위력 +1, 공격 적중시 13% 확률로 대상에게 (10+자신의 충전 수치)만큼 피해
+전투 책장으로 충전을 소모할 때 같은 양의 충전을 얻음(막당 한 번)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="8"> 
+    <Name>차원절단</Name>
+    <Desc>공격 적중시 (10 +자신의 충전 수치)% 확률로 대상에게 피해 10</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="9"> 
+    <Name>반작용</Name>
+    <Desc>이전 막에 전투 책장으로 충전을 얻거나 소모했다면 막 시작시 힘 1, 신속 1을 얻음</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="10"> 
+    <Name>굴절</Name>
+    <Desc>'충전' 능력을 가진 전투 책장 사용시 그 책장의 모든 주사위의 위력 +1, 공격 적중시 7% 확률로 대상에게 (10+자신의 충전 수치)만큼 흐트러짐 피해
+전투 책장으로 충전을 얻을 때 같은 양의 충전을 얻음(막당 한 번)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="11"> 
+    <Name>도약</Name>
+    <Desc>속도가 4 이상이면 모든 주사위 위력 +1, 공격 적중시 충전 1을 얻음
+전투 책장으로 충전을 얻거나 소모할 때, 얻거나 소모하는 충전의 절반만큼 충전을 얻음(막당 한 번)</Desc>
+  </PassiveDesc>
+  
+  <PassiveDesc ID="12"> 
+    <Name>사의 눈</Name>
+    <Desc>모든 주사위 위력 +1. 네번째로 사용하는 책장마다 그 책장의 모든 주사위의 최솟값 +4</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="13"> 
+    <Name>과호흡</Name>
+    <Desc>원래 비용이 4 이상인 책장을 사용할 때 빛 2 회복</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="14"> 
+    <Name>받아내기</Name>
+    <Desc>전투 시작시 반격 주사위(방어, 4-8) 1개를 추가</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="15"> 
+    <Name>아물지 않은 상처</Name>
+    <Desc>시작 체력 75% 감소</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="16"> 
+    <Name>결단의 날</Name>
+    <Desc>대상의 체력이 75%이하라면 모든 주사위 위력 +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="17"> 
+    <Name>극의의 날</Name>
+    <Desc>반격 주사위를 제외하고 주사위가 1개인 책장을 사용할 때, 합으로 누적되는 감정이 2배가 되고 그 주사위의 위력 +2
+덱의 모든 책장이 이 조건을 만족한다면 반격 주사위 위력 +2</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="18"> 
+    <Name>잠행</Name>
+    <Desc>매 막마다 각 속도 주사위에 첫번째로 받는 일방공격의 피해량 80% 감소(광역 공격에도 적용)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="19"> 
+    <Name>섬격</Name>
+    <Desc>막 시작시 신속 1을 얻음. 모든 주사위의 최댓값과 피해량 +1, 자신에게 있는 신속 수치 2당 추가로 +1(최대 4)
+특수 책장 '격렬' 사용 가능</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="20"> 
+    <Name>안정적인 호흡</Name>
+    <Desc>막 시작시 빛을 최대로 가지고 있지 않다면 빛 1 회복</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="21"> 
+    <Name>해금</Name>
+    <Desc>서로 다른 책장을 6장 이상 사용하면 모든 주사위의 위력이 1 증가하는 '해금' 상태가 된다. (이 효과는 접대 동안 유지된다.)
+무대 시작시 E.G.O 책장 칸에 전용 책장이 추가된다.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="22"> 
+    <Name>격류</Name>
+    <Desc>서로 다른 책장을 4장 사용할 때마다 책장을 1장 뽑는다.
+해금 상태라면 뽑힌 책장의 비용이 0이 된다.(사용 후 원래 비용으로 돌아옴)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="23"> 
+    <Name>지령의 가호</Name>
+    <Desc>막 시작시 지령을 받는다(무작위 공격 속성 위력 +2). 지령은 해당 속성의 공격 주사위를 굴려서 수행할 수 있다.
+지령을 수행하면 해당 속성의 위력이 영구적으로 +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="24"> 
+    <Name>강압</Name>
+    <Desc>서로 다른 책장을 4장 사용할 때마다 다음 막에 힘 1을 얻는다.
+해금 상태라면 대신 힘 2를 얻는다.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="25"> 
+    <Name>숙한</Name>
+    <Desc>서로 다른 책장을 4장 사용할 때마다 빛 1 회복
+해금 상태라면 추가로 손패의 모든 책장의 비용 1 감소(사용 후 원래 비용으로 돌아옴)</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="26"> 
+    <Name>열혈</Name>
+    <Desc>긍정/부정 감정 코인을 얻을 때마다 체력 1, 흐트러짐 저항 1 회복
+감정 단계가 3 이상이면 공격 주사위 위력 +1</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="27"> 
+    <Name>임전무퇴</Name>
+    <Desc>감정 단계가 상승할 때마다 모든 아군에게 힘 1 부여
+긍정/부정 코인을 3개 얻을 때마다 다음 막에 인내 또는 보호 1, 힘 또는 피해량 증가 1을 얻음</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="28"> 
+    <Name>월장석</Name>
+    <Desc>3 이하의 흐트러짐 피해 무시
+흐트러졌을 때 흐트러짐 상태를 해제하고 모든 흐트러짐 저항을 회복한다. 그 후 이 지속 능력을 지운다.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="29"> 
+    <Name>안여태산</Name>
+    <Desc>흐트러지지 않았다면 보호와 흐트러짐 보호의 효과를 두배로 받는다.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="30"> 
+    <Name>안불망위</Name>
+    <Desc>힘과 인내의 효과가 공격 주사위와 방어 주사위 양쪽 모두에 적용된다.</Desc>
+  </PassiveDesc>
+  
+<!--  <PassiveDesc ID=""> 
+    <Name></Name>
+    <Desc></Desc>
+  </PassiveDesc>-->
+</PassiveDescRoot>

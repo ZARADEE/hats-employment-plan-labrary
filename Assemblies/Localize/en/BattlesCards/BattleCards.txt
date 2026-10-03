@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BattleCardDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cardDescList>
+
+    <BattleCardDesc ID="1">
+      <LocalizedName>Batter the Weak Point</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="2">
+      <LocalizedName>Cut the Clouds to See the Sun</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="3">
+      <LocalizedName>Dimensional Sections</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="4">
+      <LocalizedName>Dimensional Section</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="5">
+      <LocalizedName>Moment between Life and Death</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="6">
+      <LocalizedName>The Singular Sword</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="7">
+      <LocalizedName>Flashing Twin Blades</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="8">
+      <LocalizedName>Execution</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="9">
+      <LocalizedName>Decollation</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="10">
+      <LocalizedName>Extermination</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="11">
+      <LocalizedName>Raging Storm: Harm</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="12">
+      <LocalizedName>Tiěshānkào</LocalizedName>
+    </BattleCardDesc>
+	
+	<BattleCardDesc ID="100">
+      <LocalizedName>Face the Enemy Head-On</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="101">
+      <LocalizedName>Swift Burst</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="102">
+      <LocalizedName>Swift Trace</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="103">
+      <LocalizedName>Heavy Trace</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="104">
+      <LocalizedName>Multiplying Trace</LocalizedName>
+    </BattleCardDesc>
+ 
+ 
+  </cardDescList>
+</BattleCardDescRoot>

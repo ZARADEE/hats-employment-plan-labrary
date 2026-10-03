@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleEffectTextRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <effectTextList>
+
+	<BattleEffectText ID="onlypage_Hat_Dante_Keyword">
+      <Name>Dante's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Dante’s Key page.</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="onlypage_Hat_Sayo_Keyword">
+      <Name>Sayo’s Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Sayo’s Key page.</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="onlypage_Hat_Wcorp_Keyword">
+      <Name>Rose, Lesti, and Sen’s Exclusive Page</Name>
+      <Desc>Can only be set in the decks of Rose, Lesti, and Sen’s Key pages.</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="onlypage_Hat_Yujin_Keyword">
+      <Name>Yujin’s Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Yujin’s Key page.</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="onlypage_Hat_Valentin_Keyword">
+      <Name>Valentin’s Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Valentin’s Key page.</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="onlypage_Hat_Tenma_Keyword">
+      <Name>Tenma’s Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Tenma’s Key page.</Desc>
+    </BattleEffectText>
+	
+    <BattleEffectText ID="Hat_Shi">
+      <Name>Eye of Death</Name>
+      <Desc>{0} pages currently used.</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="Hat_Index">
+      <Name>Grace of the Prescript</Name>
+      <Desc>{0}</Desc>
+    </BattleEffectText>
+	
+    <BattleEffectText ID="Hat_Index1">
+      <Name>Restriction Lift</Name>
+      <Desc>Number of unique Combat Pages used: {0}</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="Hat_Index2">
+      <Name>Restriction Lift</Name>
+      <Desc>Restrictions are lifted.</Desc>
+    </BattleEffectText>
+
+
+	</effectTextList>
+</BattleEffectTextRoot>

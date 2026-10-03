@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleEffectTextRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <effectTextList>
+
+	<BattleEffectText ID="onlypage_Hat_Dante_Keyword">
+      <Name>단테 전용 책장</Name>
+      <Desc>단테의 책장에만 장착 가능</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="onlypage_Hat_Sayo_Keyword">
+      <Name>사요 전용 책장</Name>
+      <Desc>사요의 책장에만 장착 가능</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="onlypage_Hat_Wcorp_Keyword">
+      <Name>로즈, 레스티, 센 전용 책장</Name>
+      <Desc>로즈, 레스티, 센의 책장에만 장착 가능</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="onlypage_Hat_Yujin_Keyword">
+      <Name>유진 전용 책장</Name>
+      <Desc>유진의 책장에만 장착 가능</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="onlypage_Hat_Valentin_Keyword">
+      <Name>발렌틴 전용 책장</Name>
+      <Desc>발렌틴의 책장에만 장착 가능</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="onlypage_Hat_Tenma_Keyword">
+      <Name>텐마 전용 책장</Name>
+      <Desc>텐마의 책장에만 장착 가능</Desc>
+    </BattleEffectText>
+	
+    <BattleEffectText ID="Hat_Shi">
+      <Name>사의 눈</Name>
+      <Desc>{0}개의 책장이 사용됨</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="Hat_Index">
+      <Name>지령의 가호</Name>
+      <Desc>{0}</Desc>
+    </BattleEffectText>
+	
+    <BattleEffectText ID="Hat_Index1">
+      <Name>구속 해제</Name>
+      <Desc>사용된 서로 다른 책장의 수: {0}</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="Hat_Index2">
+      <Name>구속 해제</Name>
+      <Desc>구속이 해제됨</Desc>
+    </BattleEffectText>
+	
+	</effectTextList>
+</BattleEffectTextRoot>

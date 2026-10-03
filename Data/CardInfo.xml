@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  
+  <Card ID="1">
+    <Name>破绽连击</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Dante_S.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Dante1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Slash" Motion="J" EffectRes="Hat_SevenAssociation_J" Script="powerUpNext2pw" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="Hat_SevenAssociation_Z" Script="powerUpNext2pw" ActionScript="Hat_SevenAssociation_S2" Desc="" />
+	  <Behaviour Min="7" Dice="10" Type="Atk" Detail="Hit" Motion="H" EffectRes="Hat_SevenAssociation_H" Script="Hat_Dante2" ActionScript="Hat_SevenAssociation_S1" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  <Card ID="2">
+    <Name>云开见日</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Sayo_S.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Sayo1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" EffectRes="Hat_Kurokumo_J" Script="Hat_Sayo2" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Def" Detail="Guard" Motion="G" EffectRes="Hat_Kurokumo_G" Script="" ActionScript="" Desc="" />
+	  <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" EffectRes="Hat_Kurokumo_J" Script="Hat_Sayo3" ActionScript="Hat_Kurokumo_S1" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card> 
+
+  <Card ID="3">
+    <Name>次元截断</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Warp_S.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Warp1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="2" Dice="4" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="Hat_Warp_Z" Script="drawCard2pw" ActionScript="Hat_Warp_S1" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="S1" EffectRes="Hat_Warp_J" Script="Hat_Warp2" ActionScript="Hat_Warp_S2" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  <Card ID="4">
+    <Name>次元波动</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Warp_S2.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Warp3</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="6" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="18" Type="Atk" Detail="Hit" Motion="Z" EffectRes="" Script="Hat_Warp4" ActionScript="Hat_Warp_S3" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  
+  <Card ID="5">
+    <Name>生死一瞬</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Yujin_S.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Shi1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="4" Type="Atk" Detail="Penetrate" Motion="H" EffectRes="Hat_Shi_H" Script="Hat_Shi4" ActionScript="Hat_Yujin_S1" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  
+  <Card ID="6">
+    <Name>唯此一剑</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Valentin_S.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Shi2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="12" Dice="21" Type="Atk" Detail="Slash" Motion="J" EffectRes="Hat_Shi_J" Script="Hat_Shi5" ActionScript="Hat_Valentin_S1" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" EffectRes="Hat_Shi_J" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  
+  <Card ID="7">
+    <Name>迅闪双刃</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Tenma_S.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Shi3</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="9" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="H" EffectRes="Hat_Shi_J" Script="Hat_Shi6" ActionScript="Hat_Tenma_S1" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="H" EffectRes="Hat_Shi_J" Script="Hat_Shi7" ActionScript="Hat_Tenma_S2" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  
+  <Card ID="8">
+    <Name>极刑处死</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Index_S2.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Option>Personal</Option>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Index4</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="5" Type="Atk" Detail="Penetrate" Motion="H" EffectRes="" Script="Hat_Index5" ActionScript="Hat_Esther_S1" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Penetrate" Motion="Z" EffectRes="Hat_Index_Z" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  
+  <Card ID="9">
+    <Name>一剑斩首</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Index_S3.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Option>Personal</Option>
+    <Option>OnlyPage</Option>
+    <Spec Range="Far" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Index6</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="18" Dice="30" Type="Atk" Detail="Slash" Motion="H" EffectRes="" Script="Hat_Index7" ActionScript="Hat_Hubert_S1" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" EffectRes="Hat_Index_J" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  <Card ID="10">
+    <Name>斩尽杀绝</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Index_S4.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Option>Personal</Option>
+    <Option>OnlyPage</Option>
+    <Spec Range="FarArea" Cost="5" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Index9</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="17" Dice="28" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="Hat_Index10" ActionScript="Hat_Gloria_S1" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>  
+
+  <Card ID="11">
+    <Name>燎原炽焰</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Liu_S1.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="FarAreaEach" Cost="5" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Liu1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="8" Dice="20" Type="Atk" Detail="Slash" Motion="S2" EffectRes="" Script="shyaoDice1" ActionScript="Hat_Lowell_S1" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="shyaoDice1" ActionScript="Hat_Lowell_S2" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  <Card ID="12">
+    <Name>铁山靠</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Liu_S2.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Liu2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+	  <Behaviour Min="5" Dice="10" Type="Atk" Detail="Hit" Motion="Z" EffectRes="Hat_Liu_Z" Script="" ActionScript="" Desc="" />
+	  <Behaviour Min="8" Dice="21" Type="Atk" Detail="Hit" Motion="S1" EffectRes="" Script="Hat_Liu3" ActionScript="Hat_Liu_S1" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Standby" Detail="Hit" Motion="Z" EffectRes="Hat_Liu_Z" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+
+  
+  <Card ID="100">
+    <Name>正面迎敌</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Yujin_S2.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script></Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Guard" Motion="G" EffectRes="Hat_Shi_G" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  <Card ID="101">
+    <Name>迅疾爆发</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Tenma_S2.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Option>Personal</Option>
+	<Option>ExhaustOnUse</Option>
+    <Spec Range="Instance" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Shi8</Script>
+    <ScriptDesc />
+    <BehaviourList>
+	
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>1</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+ 
+  <Card ID="102">
+    <Name>迅捷轨迹</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Index_S1.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Option>Personal</Option>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Index1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="9" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Slash" Motion="J" EffectRes="Hat_Index_J" Script="quickness1atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Hit" Motion="H" EffectRes="Hat_Index_H" Script="strength1atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  <Card ID="103">
+    <Name>沉重轨迹</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Index_S1.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Option>Personal</Option>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Index2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="8" Dice="18" Type="Atk" Detail="Hit" Motion="J" EffectRes="Hat_Index_J" Script="Hat_Index8" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" EffectRes="Hat_Index_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" EffectRes="Hat_Index_G" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  <Card ID="104">
+    <Name>多重轨迹</Name>
+    <TextId>-1</TextId>
+    <Artwork>Hat_Index_S1.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>NoInventory</Option>
+    <Option>Personal</Option>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Hat_Index3</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" EffectRes="Hat_Index_J" Script="weak1atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="Hat_Index_Z" Script="vulnerable2atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="H" EffectRes="Hat_Index_H" Script="bleeding3atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>6</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>11</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+
+  
+</DiceCardXmlRoot>

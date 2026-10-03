@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!-- 但丁 --> 
+  
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>7</Cost>
+    <Script>Hat_DantePassive1</Script>
+    <Name>弱点洞悉</Name>
+    <Desc>若目标处于“易损”状态则使自身的所有骰子威力+1，否则击中目标时在本幕中对其施加3层“易损”</Desc>
+  </Passive>
+  
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>Hat_DantePassive2</Script>
+    <Name>情报掌控</Name>
+    <Desc>每一幕结束时随机使1名敌方角色的1种“耐性”攻击抗性在下一幕中变为“一般”</Desc>
+  </Passive>
+  
+  <Passive ID="3">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>3</Cost>
+    <Script>Hat_DantePassive3</Script>
+    <Name>要害识破</Name>
+    <Desc>造成“易损”伤害时其额外伤害x2</Desc>
+  </Passive>
+
+<!-- 纱世 --> 
+  
+  <Passive ID="4">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_SayoPassive1</Script>
+    <Name>黑云翻墨</Name>
+    <Desc>斩击骰子威力+1，抽取书页时若手中书页不少于6张则使其获得“黑云”标记(费用-1且所有骰子威力+1)</Desc>
+  </Passive>
+
+  <Passive ID="5">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>Hat_SayoPassive2</Script>
+    <Name>黑云压境</Name>
+    <Desc>开启舞台时额外抽取2张书页，每2幕额外抽取1张书页</Desc>
+  </Passive>
+
+  <Passive ID="6">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>3</Cost>
+    <Script>Hat_SayoPassive3</Script>
+    <Name>锋芒毕现</Name>
+    <Desc>以斩击骰子击中目标时将在下一幕中对其施加1层“流血”
+击中处于“流血”状态下的目标时伤害+“流血”层数/4(至多10点)</Desc>
+  </Passive>
+
+
+<!-- W --> 
+  
+  <Passive ID="7">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_WarpPassive1</Script>
+    <Name>量子跃迁</Name>
+    <Desc>“充能”书页中的所有骰子威力+1且击中目标时有13%的概率追加(10+“充能”)点伤害
+每一幕首次使用书页消耗充能时立刻获得等量充能</Desc>
+  </Passive>
+
+  <Passive ID="8">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>Hat_WarpPassive2</Script>
+    <Name>次元截断</Name>
+    <Desc>击中目标时有(10+“充能”)%的概率追加10点伤害</Desc>
+  </Passive>
+
+  <Passive ID="9">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>3</Cost>
+    <Script>Hat_WarpPassive3</Script>
+    <Name>反作用力</Name>
+    <Desc>若上一幕曾使用书页获得与消耗“充能”，则这一幕中使自身获得1层“强壮”与“迅捷”</Desc>
+  </Passive>
+
+  <Passive ID="10">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_WarpPassive4</Script>
+    <Name>弯曲折射</Name>
+    <Desc>“充能”书页中的所有骰子威力+1且击中目标时有7%的概率追加(10+“充能”)点混乱伤害
+每一幕首次使用书页获得充能时立刻获得等量充能</Desc>
+  </Passive>
+  
+  <Passive ID="11">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_WarpPassive5</Script>
+    <Name>腾跃速攻</Name>
+    <Desc>若自身速度不低于4点则所有骰子威力+1且击中目标时获得1层“充能”
+每一幕首次使用书页消耗与获得充能时立刻获得半数充能</Desc>
+  </Passive>
+  
+<!-- 4协会 --> 
+  
+  <Passive ID="12">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_ShiPassive1</Script>
+    <Name>现死之眼</Name>
+    <Desc>所有骰子威力+1，每当使用第4张书页时使其中的所有骰子最小值+4</Desc>
+  </Passive>
+
+  <Passive ID="13">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Hat_ShiPassive2</Script>
+    <Name>过度呼吸</Name>
+    <Desc>使用初始费用不低于4的书页时恢复2点光芒</Desc>
+  </Passive>
+
+  <Passive ID="14">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>3</Cost>
+    <Script>Hat_ShiPassive3</Script>
+    <Name>正面迎敌</Name>
+    <Desc>下令战斗时获得1颗反击招架骰子(4~8)(每一幕至多触发1次)</Desc>
+  </Passive>
+  
+  <Passive ID="15">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Common</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>Hat_ShiPassive4</Script>
+    <Name>伤势未愈</Name>
+    <Desc>首次开启舞台时失去75%的体力</Desc>
+  </Passive>
+
+  <Passive ID="16">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>Hat_ShiPassive5</Script>
+    <Name>夺命利剑</Name>
+    <Desc>若目标体力低于75%则使自身的所有骰子威力+1</Desc>
+  </Passive>
+  
+  <Passive ID="17">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_ShiPassive6</Script>
+    <Name>极意之剑</Name>
+    <Desc>使用初始骰子数为1的书页时使该书页的所有骰子威力+2并在拼点时获得双倍情感点数(不计入反击骰子且无法对反击骰子生效)
+若初始卡组中的所有近战书页均满足此条件则使自身的反击骰子威力+2</Desc>
+  </Passive>
+  
+  <Passive ID="18">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>3</Cost>
+    <Script>Hat_ShiPassive7</Script>
+    <Name>暗影匿踪</Name>
+    <Desc>每一幕中每颗速度骰子首次被单方面攻击时所受伤害减少80%(包含群体攻击书页)</Desc>
+  </Passive>
+
+  <Passive ID="19">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_ShiPassive8</Script>
+    <Name>闪击战术</Name>
+    <Desc>每一幕开始时获得1层“迅捷”且自身的所有骰子最大值与伤害+1，每2层“迅捷”额外+1(至多+4)
+可使用特殊书页“迅疾爆发”</Desc>
+  </Passive>
+  
+  <Passive ID="20">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>3</Cost>
+    <Script>Hat_ShiPassive9</Script>
+    <Name>稳定呼吸</Name>
+    <Desc>每一幕开始时若光芒未满则额外恢复1点光芒</Desc>
+  </Passive>  
+
+
+<!-- 食指Index --> 
+  
+  <Passive ID="21">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_IndexPassive1</Script>
+    <Name>剑刃解放</Name>
+    <Desc>在同一舞台中使用6张不同书页后将使自身的所有骰子威力+1并处于“剑刃解放”状态，切换舞台时保留“剑刃解放”状态
+开启舞台时将代行者书页置入自身的E.G.O栏位</Desc>
+  </Passive>
+
+  <Passive ID="22">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Hat_IndexPassive2</Script>
+    <Name>汹涌激流</Name>
+    <Desc>每使用4张不同书页便抽取1张书页，若已处于“剑刃解放”状态则使此书页费用变为0(使用时复原)</Desc>
+  </Passive>
+  
+  <Passive ID="23">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Hat_IndexPassive3</Script>
+    <Name>指令加护</Name>
+    <Desc>每3幕获得接下来3幕的“指令”(随机“进攻型”骰子威力+2且不重复)
+该幕使用“指令”要求的骰子将完成“指令”并永久保留半数加成</Desc>
+  </Passive>
+  
+  <Passive ID="24">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Hat_IndexPassive4</Script>
+    <Name>高压攻势</Name>
+    <Desc>每使用4张不同书页便获得1层“强壮”，若已处于“剑刃解放”状态则改为2层</Desc>
+  </Passive>
+  
+  <Passive ID="25">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Hat_IndexPassive5</Script>
+    <Name>游刃有余</Name>
+    <Desc>每使用4张不同书页便恢复1点光芒，若已处于“剑刃解放”状态则额外使手中书页费用-1(使用时复原)</Desc>
+  </Passive>
+  
+<!-- 6协 --> 
+  
+  <Passive ID="26">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Hat_LiuPassive1</Script>
+    <Name>满腔热血</Name>
+    <Desc>获得正面/负面情感时恢复1点体力/混乱抗性
+情感等级达到3级后使自身的所有骰子威力+1</Desc>
+  </Passive>
+
+  <Passive ID="27">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_LiuPassive2</Script>
+    <Name>所向无前</Name>
+    <Desc>情感等级提升时使所有我方角色获得1层“强壮”
+每获得3点正面/负面情感便获得1层“忍耐”与“守护”/“强壮”与“伤害强化”</Desc>
+  </Passive>
+
+  <Passive ID="28">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>Hat_LiuPassive3</Script>
+    <Name>月长石</Name><!-- M Corp --> 
+    <Desc>免疫不高于3点的混乱伤害，若陷入混乱则解除混乱状态并恢复所有混乱抗性，随后摧毁此被动</Desc>
+  </Passive>  
+  
+  <Passive ID="29">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_LiuPassive4</Script>
+    <Name>坚如磐石</Name>
+    <Desc>若未陷入混乱则从“守护”与“振奋”中获得的增益效果翻倍</Desc>
+  </Passive>
+  
+  <Passive ID="30">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Hat_LiuPassive5</Script>
+    <Name>常备不懈</Name>
+    <Desc>自身的“强壮”/“忍耐”可同时强化“防御型”/“进攻型”骰子</Desc>
+  </Passive>
+  
+</PassiveXmlRoot>

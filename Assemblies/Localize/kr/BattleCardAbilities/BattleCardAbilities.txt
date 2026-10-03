@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!-- 但丁 -->
+
+  <BattleCardAbility ID="Hat_Dante1">
+	<Desc>이 책장의 주사위로 7의 피해를 가할 때마다 다음 막에 취약 1 부여 (최대 7)</Desc>
+	<Desc>[사용시] 이 책장의 공격 주사위들의 속성은 대상의 내성이 가장 약한 속성 중 하나로 바뀐다</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Dante2">
+	<Desc>[적중] 대상에게 (이 책장으로 공격을 적중시킨 횟수×7)만큼 피해, 다음 막에 무장 해제 3 부여</Desc>
+  </BattleCardAbility>
+
+<!-- 纱世 -->
+
+  <BattleCardAbility ID="Hat_Sayo1">
+	<Desc>[사용시] 이 책장의 모든 주사위는 손에 있는 책장 수만큼 위력이 증가한다</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Sayo2">
+	<Desc>[적중] 책장을 2장 뽑음</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Sayo3">
+	<Desc>[적중] 손에 있는 책장 1장당 다음 막에 출혈 4 부여</Desc>
+  </BattleCardAbility>
+  
+<!-- WARP -->
+
+  <BattleCardAbility ID="Hat_Warp1">
+    <Desc>[사용시] 충전 10을 소모, (충전×10)%의 확률로 성공
+[성공] 이 책장의 모든 주사위 위력 +8
+[실패] 자신에게 피해 20</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp2">
+	<Desc>[적중] 이 책장으로 충전을 10 소모했으면 대상에게 피해 15</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp3">
+    <Desc>[On Use] Spend up to 5 Charge to boost Power of all dice on this page by the amount spent</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Warp4">
+	<Desc>If 5 Charge were spent, roll Max</Desc>
+  </BattleCardAbility>
+  
+<!-- Shi -->
+
+  <BattleCardAbility ID="Hat_Shi1">
+	<Desc>[합 승리] 대상의 모든 주사위 파괴</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi2">
+	<Desc>[전투 시작] 이번 막 동안 반격을 제외하고 주사위가 한개인 모든 책장의 첫번째 주사위에 '[합 승리] 대상의 다음 주사위 파괴' 부여</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi3">
+	<Desc>[사용시] 자신의 속도가 대상의 속도보다 높다면, 이 책장의 모든 주사위 위력 +2</Desc>
+	<Desc>[적중] 다음 막에 신속 1, 피해량 증가 1을 얻음</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi4">
+	<Desc>원래 주사위 값이 4 이상이고 최댓값이면 위력 +45</Desc>
+  </BattleCardAbility>  
+
+  <BattleCardAbility ID="Hat_Shi5">
+	<Desc>대상이 (22/44/88)%만큼 체력을 잃었다면, (44/144/444)%만큼 추가 피해</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi6">
+	<Desc>[적중] 속도값의 차이만큼 피해 (최대 8)</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Shi7">
+	<Desc>[적중] 속도값의 차이만큼 흐트러짐 피해 (최대 8)</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Shi8">
+	<Desc>[장착시 발동] 자신의 가장 빠른 속도 주사위와 같은 값의 속도 주사위 1개를 자신에게 추가</Desc>
+	<Desc>다음 막 시작시 자신의 속도 주사위 1개 봉인
+효과 종료 후, 이 책장은 자신의 E.G.O 책장으로 추가된다.</Desc>
+  </BattleCardAbility>
+
+<!-- Index -->
+
+  <BattleCardAbility ID="Hat_Index1">
+	<Desc>'해금' 상태라면 합을 하는 동안 대상 주사위 위력 -3</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index2">
+	<Desc>'해금' 상태라면 대상 책장의 첫번째 주사위는 위력의 효과를 받지 않는다</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index3">
+	<Desc>'해금' 상태라면 이 책장의 모든 주사위의 최댓값 +3</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index4">
+    <Desc>'해금' 상태일 때에만 사용 가능</Desc>
+	<Desc>[사용시] '구속 해제' 6 소모</Desc>
+	<Desc>합을 하는 동안 대상의 모든 주사위 위력 -12</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index5">
+	<Desc>[적중] 주사위 값 1당 대상에게 피해와 흐트러짐 피해 7</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index6">
+    <Desc>'해금' 상태일 때에만 사용 가능</Desc>
+	<Desc>[사용시] '구속 해제' 6 소모</Desc>
+	<Desc>합을 하는 동안 대상 책장의 모든 수비 주사위 파괴</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index7">
+	<Desc>[적중] 출혈 10 부여, 대상은 이번 막 동안 공격 주사위를 굴려도 출혈 수치가 감소하지 않는다.</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index8">
+	<Desc>[적중] 다음 막에 무장 해제 1, 속박 1, 마비 1 부여</Desc>
+  </BattleCardAbility>
+  
+  <BattleCardAbility ID="Hat_Index9">
+    <Desc>'해금' 상태일 때에만 사용 가능</Desc>
+	<Desc>[사용시] '구속 해제' 6 소모</Desc>
+	<Desc>적을 처치하거나 흐트러짐 상태로 만들면 이 책장을 다시 사용한다.</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Index10">
+	<Desc>대상 처치 시 이번 막에 힘 3을 얻음</Desc>
+  </BattleCardAbility>
+ 
+<!-- Liu -->
+
+  <BattleCardAbility ID="Hat_Liu1">
+    <Desc>이번 막에 다른 아군이 '휘몰아치기-애'를 사용할 때 이 책장과 그 책장에 참격 주사위(8~20)을 추가</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Liu2">
+    <Desc>[합 시작] 대상 책장의 모든 수비 주사위 위력 -5</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="Hat_Liu3">
+    <Desc>[적중] 다음 막에 무장 해제 6 부여</Desc>
+  </BattleCardAbility>
+  
+</BattleCardAbilityDescRoot>
